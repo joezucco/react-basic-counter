@@ -1,7 +1,7 @@
-export const Count = () => {
+export const Count = ({counter}) => {
   return (
     <div>
-      <h1>Count component</h1>
+      <h1>{counter}</h1>
     </div>
   );
 };

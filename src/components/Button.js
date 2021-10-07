@@ -1,7 +1,8 @@
-export const Button = (props) => {
+export const Button = ({ updateCounter }) => {
   return (
     <div>
-      <h1>Button component</h1>
+      <button onClick={updateCounter}>Add</button>
+      <button onClick={updateCounter}>Subtract</button>
     </div>
   );
 };
