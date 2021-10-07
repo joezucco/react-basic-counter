@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Button } from "./components/Button";
+import Count from "./components/Count";
 import "./App.css";
 
 function App() {
@@ -10,6 +12,10 @@ function App() {
       <h1>{counter}</h1>
       <button onClick={() => setCounter(counter + 1)}>Add</button>
       <button onClick={() => setCounter(counter - 1)}>Subtract</button>
+
+      {/* Components */}
+      <Button />
+      <Count />
     </div>
   );
 }
