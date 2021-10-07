@@ -1,8 +1,8 @@
-export const Button = ({ updateCounter }) => {
+export const Button = ({ addCounter, subtractCounter }) => {
   return (
     <div>
-      <button onClick={updateCounter}>Add</button>
-      <button onClick={updateCounter}>Subtract</button>
+      <button onClick={addCounter}>Add</button>
+      <button onClick={subtractCounter}>Subtract</button>
     </div>
   );
 };
